@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		6F0E45FC252BAB7C004BDB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E45FB252BAB7C004BDB9A /* AppDelegate.swift */; };
 		6F0E45FE252BAB7C004BDB9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E45FD252BAB7C004BDB9A /* SceneDelegate.swift */; };
-		6F0E4600252BAB7C004BDB9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E45FF252BAB7C004BDB9A /* ViewController.swift */; };
+		6F0E4600252BAB7C004BDB9A /* MyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E45FF252BAB7C004BDB9A /* MyLoginViewController.swift */; };
 		6F0E4603252BAB7D004BDB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E4601252BAB7D004BDB9A /* Main.storyboard */; };
 		6F0E4605252BAB82004BDB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E4604252BAB82004BDB9A /* Assets.xcassets */; };
 		6F0E4608252BAB82004BDB9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F0E4606252BAB82004BDB9A /* LaunchScreen.storyboard */; };
+		6F0E4611252BB385004BDB9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0E4610252BB385004BDB9A /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F0E45F8252BAB7C004BDB9A /* My-goggle-login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-goggle-login-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0E45FB252BAB7C004BDB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0E45FD252BAB7C004BDB9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F0E45FF252BAB7C004BDB9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F0E45FF252BAB7C004BDB9A /* MyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
 		6F0E4602252BAB7D004BDB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F0E4604252BAB82004BDB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F0E4607252BAB82004BDB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F0E4609252BAB82004BDB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0E4610252BB385004BDB9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,30 @@
 			children = (
 				6F0E45FB252BAB7C004BDB9A /* AppDelegate.swift */,
 				6F0E45FD252BAB7C004BDB9A /* SceneDelegate.swift */,
-				6F0E45FF252BAB7C004BDB9A /* ViewController.swift */,
-				6F0E4601252BAB7D004BDB9A /* Main.storyboard */,
+				6F0E4614252BB3AD004BDB9A /* Controller */,
+				6F0E4616252BB3DA004BDB9A /* View */,
 				6F0E4604252BAB82004BDB9A /* Assets.xcassets */,
 				6F0E4606252BAB82004BDB9A /* LaunchScreen.storyboard */,
 				6F0E4609252BAB82004BDB9A /* Info.plist */,
 			);
 			path = "My-goggle-login-app";
+			sourceTree = "<group>";
+		};
+		6F0E4614252BB3AD004BDB9A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F0E45FF252BAB7C004BDB9A /* MyLoginViewController.swift */,
+				6F0E4610252BB385004BDB9A /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F0E4616252BB3DA004BDB9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F0E4601252BAB7D004BDB9A /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F0E4600252BAB7C004BDB9A /* ViewController.swift in Sources */,
+				6F0E4600252BAB7C004BDB9A /* MyLoginViewController.swift in Sources */,
 				6F0E45FC252BAB7C004BDB9A /* AppDelegate.swift in Sources */,
 				6F0E45FE252BAB7C004BDB9A /* SceneDelegate.swift in Sources */,
+				6F0E4611252BB385004BDB9A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
