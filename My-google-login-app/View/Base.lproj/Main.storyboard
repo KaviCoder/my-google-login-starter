@@ -22,7 +22,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2NE-At-pmJ">
                                 <rect key="frame" x="52" y="332" width="310" height="232"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!                                           Let's unlock the door by using Google login" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-eg-GoT">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!                                           Let's unlock the door by using Google login" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-eg-GoT">
                                         <rect key="frame" x="0.0" y="0.0" width="310" height="106"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
                                         <color key="textColor" red="0.47400337460000003" green="0.47031360859999999" blue="0.46347969770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,6 +48,9 @@
                             <constraint firstItem="7ZD-7J-ghd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p6O-SO-8GH"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="vny-58-d5D" kind="show" identifier="goInside" id="xzl-Us-s7i"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -58,14 +61,14 @@
             <objects>
                 <viewController id="vny-58-d5D" customClass="MainViewController" customModule="My_google_login_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Gw-tu-Uff">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8i-Kq-FvM">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside!!!                              I am logged In successfully!!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-po-i6S">
-                                        <rect key="frame" x="10" y="407.5" width="394" height="81"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside!!!                              I am logged In successfully!!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-po-i6S">
+                                        <rect key="frame" x="10" y="380.5" width="394" height="81"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="31"/>
                                         <color key="textColor" red="0.82864433530000003" green="0.85868948700000003" blue="0.87561661010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -89,6 +92,7 @@
                             <constraint firstItem="g8i-Kq-FvM" firstAttribute="leading" secondItem="xqt-bu-96n" secondAttribute="leading" id="YCQ-lw-CJp"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="QdV-R5-AL5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wtf-ih-Ppx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
