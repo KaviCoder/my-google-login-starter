@@ -22,8 +22,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2NE-At-pmJ">
                                 <rect key="frame" x="52" y="332" width="310" height="232"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!                                           Let's unlock the door by using Google login" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-eg-GoT">
-                                        <rect key="frame" x="0.0" y="0.0" width="310" height="106"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!   Let's unlock the door by using Google login" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-eg-GoT">
+                                        <rect key="frame" x="6.5" y="0.0" width="297" height="106"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
                                         <color key="textColor" red="0.47400337460000003" green="0.47031360859999999" blue="0.46347969770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -67,8 +67,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8i-Kq-FvM">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside!!!                              I am logged In successfully!!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-po-i6S">
-                                        <rect key="frame" x="10" y="380.5" width="394" height="81"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside and loggedIn successfully!!" textAlignment="center" lineBreakMode="headTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-po-i6S">
+                                        <rect key="frame" x="10" y="430.5" width="394" height="81"/>
                                         <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="31"/>
                                         <color key="textColor" red="0.82864433530000003" green="0.85868948700000003" blue="0.87561661010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -79,7 +79,7 @@
                                     <constraint firstAttribute="trailing" secondItem="fZh-po-i6S" secondAttribute="trailing" constant="10" id="1Vo-zc-yW8"/>
                                     <constraint firstItem="fZh-po-i6S" firstAttribute="centerX" secondItem="g8i-Kq-FvM" secondAttribute="centerX" id="IZ2-EW-Fss"/>
                                     <constraint firstItem="fZh-po-i6S" firstAttribute="leading" secondItem="g8i-Kq-FvM" secondAttribute="leading" constant="10" id="dsq-J6-DO6"/>
-                                    <constraint firstItem="fZh-po-i6S" firstAttribute="centerY" secondItem="g8i-Kq-FvM" secondAttribute="centerY" id="ihO-Sk-UcR"/>
+                                    <constraint firstItem="fZh-po-i6S" firstAttribute="centerY" secondItem="g8i-Kq-FvM" secondAttribute="centerY" constant="50" id="ihO-Sk-UcR"/>
                                 </constraints>
                             </view>
                         </subviews>
