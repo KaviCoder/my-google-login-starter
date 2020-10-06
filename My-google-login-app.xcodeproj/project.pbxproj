@@ -42,7 +42,7 @@
 		6F0E45EF252BAB7C004BDB9A = {
 			isa = PBXGroup;
 			children = (
-				6F0E45FA252BAB7C004BDB9A /* My-goggle-login-app */,
+				6F0E45FA252BAB7C004BDB9A /* My-google-login-app */,
 				6F0E45F9252BAB7C004BDB9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6F0E45FA252BAB7C004BDB9A /* My-goggle-login-app */ = {
+		6F0E45FA252BAB7C004BDB9A /* My-google-login-app */ = {
 			isa = PBXGroup;
 			children = (
 				6F0E45FB252BAB7C004BDB9A /* AppDelegate.swift */,
@@ -66,7 +66,7 @@
 				6F0E4606252BAB82004BDB9A /* LaunchScreen.storyboard */,
 				6F0E4609252BAB82004BDB9A /* Info.plist */,
 			);
-			path = "My-goggle-login-app";
+			path = "My-google-login-app";
 			sourceTree = "<group>";
 		};
 		6F0E4614252BB3AD004BDB9A /* Controller */ = {
