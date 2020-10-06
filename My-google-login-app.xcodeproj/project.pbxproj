@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6F0E45F8252BAB7C004BDB9A /* My-goggle-login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-goggle-login-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0E45F8252BAB7C004BDB9A /* My-google-login-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My-google-login-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0E45FB252BAB7C004BDB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F0E45FD252BAB7C004BDB9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6F0E45FF252BAB7C004BDB9A /* MyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLoginViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		6F0E45F9252BAB7C004BDB9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6F0E45F8252BAB7C004BDB9A /* My-goggle-login-app.app */,
+				6F0E45F8252BAB7C004BDB9A /* My-google-login-app.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6F0E45F7252BAB7C004BDB9A /* My-goggle-login-app */ = {
+		6F0E45F7252BAB7C004BDB9A /* My-google-login-app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6F0E460C252BAB82004BDB9A /* Build configuration list for PBXNativeTarget "My-goggle-login-app" */;
+			buildConfigurationList = 6F0E460C252BAB82004BDB9A /* Build configuration list for PBXNativeTarget "My-google-login-app" */;
 			buildPhases = (
 				6F0E45F4252BAB7C004BDB9A /* Sources */,
 				6F0E45F5252BAB7C004BDB9A /* Frameworks */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = "My-goggle-login-app";
+			name = "My-google-login-app";
 			productName = "My-goggle-login-app";
-			productReference = 6F0E45F8252BAB7C004BDB9A /* My-goggle-login-app.app */;
+			productReference = 6F0E45F8252BAB7C004BDB9A /* My-google-login-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6F0E45F3252BAB7C004BDB9A /* Build configuration list for PBXProject "My-goggle-login-app" */;
+			buildConfigurationList = 6F0E45F3252BAB7C004BDB9A /* Build configuration list for PBXProject "My-google-login-app" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F0E45F7252BAB7C004BDB9A /* My-goggle-login-app */,
+				6F0E45F7252BAB7C004BDB9A /* My-google-login-app */,
 			);
 		};
 /* End PBXProject section */
@@ -308,12 +308,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAS2UF9Y9D;
-				INFOPLIST_FILE = "My-goggle-login-app/Info.plist";
+				INFOPLIST_FILE = "My-google-login-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kavyajoshi.My-goggle-login-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavyajoshi.My-google-login-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,12 +327,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAS2UF9Y9D;
-				INFOPLIST_FILE = "My-goggle-login-app/Info.plist";
+				INFOPLIST_FILE = "My-google-login-app/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kavyajoshi.My-goggle-login-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kavyajoshi.My-google-login-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F0E45F3252BAB7C004BDB9A /* Build configuration list for PBXProject "My-goggle-login-app" */ = {
+		6F0E45F3252BAB7C004BDB9A /* Build configuration list for PBXProject "My-google-login-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0E460A252BAB82004BDB9A /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6F0E460C252BAB82004BDB9A /* Build configuration list for PBXNativeTarget "My-goggle-login-app" */ = {
+		6F0E460C252BAB82004BDB9A /* Build configuration list for PBXNativeTarget "My-google-login-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6F0E460D252BAB82004BDB9A /* Debug */,

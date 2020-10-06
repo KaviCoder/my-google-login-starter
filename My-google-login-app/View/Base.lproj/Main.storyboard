@@ -11,7 +11,7 @@
         <!--My Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MyLoginViewController" customModule="My_goggle_login_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyLoginViewController" customModule="My_google_login_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -19,11 +19,21 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MyDoorWall" translatesAutoresizingMaskIntoConstraints="NO" id="7ZD-7J-ghd">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bJ0-l3-tbI">
-                                <rect key="frame" x="115" y="592" width="240" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2NE-At-pmJ">
+                                <rect key="frame" x="52" y="332" width="310" height="232"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!                                           Let's unlock the door by using Google login" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzt-eg-GoT">
+                                        <rect key="frame" x="0.0" y="0.0" width="310" height="106"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
+                                        <color key="textColor" red="0.47400337460000003" green="0.47031360859999999" blue="0.46347969770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bJ0-l3-tbI">
+                                        <rect key="frame" x="0.0" y="126" width="310" height="106"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -31,6 +41,10 @@
                             <constraint firstItem="7ZD-7J-ghd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0JX-jL-8vK"/>
                             <constraint firstAttribute="bottom" secondItem="7ZD-7J-ghd" secondAttribute="bottom" id="4NL-gj-ri5"/>
                             <constraint firstItem="7ZD-7J-ghd" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5qD-wV-dFf"/>
+                            <constraint firstItem="2NE-At-pmJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DrM-uL-2Sq"/>
+                            <constraint firstAttribute="trailing" secondItem="2NE-At-pmJ" secondAttribute="trailing" constant="52" id="SZ0-Zo-W5E"/>
+                            <constraint firstItem="2NE-At-pmJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="52" id="dZN-k2-Ywn"/>
+                            <constraint firstItem="2NE-At-pmJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mBG-04-Lx9"/>
                             <constraint firstItem="7ZD-7J-ghd" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="p6O-SO-8GH"/>
                         </constraints>
                     </view>
@@ -42,17 +56,43 @@
         <!--Main View Controller-->
         <scene sceneID="aTp-Gk-kLW">
             <objects>
-                <viewController id="vny-58-d5D" customClass="MainViewController" customModule="My_goggle_login_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vny-58-d5D" customClass="MainViewController" customModule="My_google_login_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Gw-tu-Uff">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8i-Kq-FvM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am inside!!!                              I am logged In successfully!!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZh-po-i6S">
+                                        <rect key="frame" x="10" y="407.5" width="394" height="81"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="31"/>
+                                        <color key="textColor" red="0.82864433530000003" green="0.85868948700000003" blue="0.87561661010000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.6554490328" green="0.65870690350000005" blue="0.65861546989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fZh-po-i6S" secondAttribute="trailing" constant="10" id="1Vo-zc-yW8"/>
+                                    <constraint firstItem="fZh-po-i6S" firstAttribute="centerX" secondItem="g8i-Kq-FvM" secondAttribute="centerX" id="IZ2-EW-Fss"/>
+                                    <constraint firstItem="fZh-po-i6S" firstAttribute="leading" secondItem="g8i-Kq-FvM" secondAttribute="leading" constant="10" id="dsq-J6-DO6"/>
+                                    <constraint firstItem="fZh-po-i6S" firstAttribute="centerY" secondItem="g8i-Kq-FvM" secondAttribute="centerY" id="ihO-Sk-UcR"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="xqt-bu-96n"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="g8i-Kq-FvM" firstAttribute="top" secondItem="6Gw-tu-Uff" secondAttribute="top" id="L2V-oo-8JV"/>
+                            <constraint firstItem="g8i-Kq-FvM" firstAttribute="trailing" secondItem="xqt-bu-96n" secondAttribute="trailing" id="SCg-ia-SEg"/>
+                            <constraint firstAttribute="bottom" secondItem="g8i-Kq-FvM" secondAttribute="bottom" id="SGW-2J-NSk"/>
+                            <constraint firstItem="g8i-Kq-FvM" firstAttribute="leading" secondItem="xqt-bu-96n" secondAttribute="leading" id="YCQ-lw-CJp"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wtf-ih-Ppx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="700" y="76"/>
+            <point key="canvasLocation" x="698.55072463768124" y="75.669642857142847"/>
         </scene>
     </scenes>
     <resources>
